@@ -14,8 +14,8 @@ const Mainpage = () => {
     <Hero/>
     <WhyChooseUs/>
     <CoursesOffered/>
-    <Faqsection/>
     <GetCritical/>
+    <Faqsection/>
     <Footer/>
    
     </>

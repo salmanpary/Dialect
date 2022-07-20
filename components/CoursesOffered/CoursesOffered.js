@@ -5,7 +5,7 @@ import { useMediaQuery } from "usehooks-ts";
 const CoursesOffered = () => {
     const matches = useMediaQuery("(max-width: 576px)");
   return (
-    <div className={matches?"margin":" "}>
+    <div className={!matches?"margin":" "}>
         <h2 className='font-bold text-5xl flex justify-center items-center mt-[3.4375rem] md:text-center'>Courses Offered</h2>
         <div className="flex flex-wrap gap-[3.563rem] justify-center items-center mt-[5.125rem]">
             {
