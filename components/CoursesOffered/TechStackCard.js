@@ -22,6 +22,7 @@ const TechStackCard = ({ icon, heading, content }) => {
         );
     }
   },[icon]);
+  
   return (
     <div className="flex flex-col gap-4 border rounded-xl w-[349px] h-[290px] p-10 relative md:w-auto md:h-auto md:mx-2">
       {iconcomponent}
