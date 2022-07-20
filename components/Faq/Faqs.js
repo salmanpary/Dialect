@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import styles from "./faqs.module.css";
+import styles from "./Faqs.module.css";
 export default function Faqs() {
   const [faqs, setFaqs] = useState([
     {
