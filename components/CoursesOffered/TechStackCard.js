@@ -26,7 +26,7 @@ const TechStackCard = ({ icon, heading, content }) => {
     <div className="flex flex-col gap-4 border rounded-xl w-[349px] h-[290px] p-10 relative  ">
       {iconcomponent}
       {icon === "python" && (
-        <div className="absolute bg-green w-[349px] h-[11px] top-[-1px] left-[-1px] rounded-t-xl"></div>
+        <div className="absolute bg-green w-[349px] h-[11px] top-[-1px] left-[-1px] rounded-t-xl md:hidden"></div>
       )}
 
       <div className="text-2xl font-bold">{heading}</div>
