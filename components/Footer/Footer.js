@@ -21,19 +21,19 @@ const Footer = () => {
         </div>
         <div className="flex gap-x-[7.438rem] md:flex-col md:justify-center md:items-center xl:flex-wrap xl:gap-y-4">
           <div className="flex flex-col text-[#454545] font-medium gap-2 md:flex-row md:gap-x-20">
-            <a href="">
+            <a href="" className="hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
               FAQ
             </a>
-            <a href="" className="whitespace-nowrap">
+            <a href="" className="whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
               Contact Us
             </a>
 
           </div>
           <div className="flex flex-col text-[#454545] font-medium gap-2 md:flex-row md:gap-x-10">
-            <a href="">
+            <a href="" className="hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
              Privacy Policy
             </a>
-            <a href="" className="whitespace-nowrap">
+            <a href="" className="whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
               Terms & Conditions
             </a>
 
@@ -43,9 +43,9 @@ const Footer = () => {
               Become a Teacher
             </div>
             <div className="flex gap-4 md:justify-center md:items-center">
-              <FaLinkedinIn  size={20} className="hover:cursor-pointer"/>
-              <FaFacebookMessenger  size={20} className="hover:cursor-pointer" />
-              <FaTwitter  size={20} className="hover:cursor-pointer" />
+              <FaLinkedinIn  size={20} className="hover:cursor-pointer transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 hover:text-green"/>
+              <FaFacebookMessenger  size={20} className="hover:cursor-pointer transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 hover:text-green" />
+              <FaTwitter  size={20} className="hover:cursor-pointer transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 hover:text-green" />
  
 
             </div>
