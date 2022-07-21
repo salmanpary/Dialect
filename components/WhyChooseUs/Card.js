@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { FaBusinessTime } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
-import { GrCertificate } from "react-icons/gr";
+import {TbCertificate} from "react-icons/tb";
 import { AiOutlineFieldTime } from "react-icons/ai";
 import { FaBookReader } from "react-icons/fa";
 import { useMediaQuery } from "usehooks-ts";
@@ -24,7 +24,7 @@ const Card = ({ roundcolor, heading, content, icon }) => {
         seticoncomponent(<BsFillPersonFill className="text-white" size={25} />);
         break;
       case "certificate":
-        seticoncomponent(<GrCertificate color="white" size={25} />);
+        seticoncomponent(<TbCertificate className="text-white" size={25} />);
         break;
       case "time":
         seticoncomponent(<AiOutlineFieldTime className="text-white" size={25}/>);
