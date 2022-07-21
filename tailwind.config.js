@@ -24,7 +24,8 @@ module.exports = {
 
         "cardtext":"#757095",
         "bordergrey":"#E9E9E9",
-        "faqtext":"#1B1C31"
+        "faqtext":"#1B1C31",
+        "footertext":"#454545"
 
 
       },
