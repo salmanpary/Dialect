@@ -21,21 +21,21 @@ const Footer = () => {
         </div>
         <div className="flex gap-x-[7.438rem] md:flex-col md:justify-center md:items-center xl:flex-wrap xl:gap-y-4">
           <div className="flex flex-col text-[#454545] font-medium gap-2 md:flex-row md:gap-x-20">
-            <a href="" className="hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
+            <div className=" hover:cursor-pointer hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
               FAQ
-            </a>
-            <a href="" className="whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
+            </div>
+            <div className="hover:cursor-pointer whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
               Contact Us
-            </a>
+            </div>
 
           </div>
           <div className="flex flex-col text-[#454545] font-medium gap-2 md:flex-row md:gap-x-10">
-            <a href="" className="hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
+            <div className= "hover:cursor-pointer hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
              Privacy Policy
-            </a>
-            <a href="" className="whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
+            </div>
+            <div className=" hover:cursor-pointer whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
               Terms & Conditions
-            </a>
+            </div>
 
           </div>
           <div className="flex flex-col text-blue gap-4">
