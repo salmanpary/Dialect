@@ -40,7 +40,7 @@ export default function Faqs() {
   return (
 	<>
 	{ <div id="faqs">
-      <section className={`${styles["faqs"]} mt-[7.688rem]`}>
+      <section className={`${styles["faqs"]}`}>
         {/* <div className={styles['tab-wrapper']}>
 					<Tabs
 						tabs={[

@@ -43,7 +43,9 @@ module.exports = {
         // => @media (max-width: 767px) { ... }
   
         sm: { max: "640px" },
-        card:{max:"576px"}
+        card:{max:"576px"},
+        mobile:{max:"398px"}
+
         // => @media (max-width: 639px) { ... }
       },
 

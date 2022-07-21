@@ -13,7 +13,7 @@ const Hero = () => {
       setstyle("margin")
     }
     else{
-      setstyle("")
+      setstyle("mx-10")
     }
   },[matches])
 

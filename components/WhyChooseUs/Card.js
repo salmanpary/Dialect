@@ -18,19 +18,19 @@ const Card = ({ roundcolor, heading, content, icon }) => {
     }
     switch (icon) {
       case "businesstime":
-        seticoncomponent(<FaBusinessTime className="text-white" />);
+        seticoncomponent(<FaBusinessTime className="text-white" size={25}/>);
         break;
       case "person":
-        seticoncomponent(<BsFillPersonFill className="text-white" />);
+        seticoncomponent(<BsFillPersonFill className="text-white" size={25} />);
         break;
       case "certificate":
-        seticoncomponent(<GrCertificate color="white" />);
+        seticoncomponent(<GrCertificate color="white" size={25} />);
         break;
       case "time":
-        seticoncomponent(<AiOutlineFieldTime className="text-white" />);
+        seticoncomponent(<AiOutlineFieldTime className="text-white" size={25}/>);
         break;
       case "book":
-        seticoncomponent(<FaBookReader className="text-white" />);
+        seticoncomponent(<FaBookReader className="text-white" size={25}/>);
         break;
       case "transalate":
         seticoncomponent(
