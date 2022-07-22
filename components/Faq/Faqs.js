@@ -13,19 +13,20 @@ export default function Faqs() {
       id: 2,
       open: false,
       question: " Will the course be online or offline ?",
-      answer: `The Programs lasts for 4 to 8 weeks. Once in, the students received One year access to loads of resources, live support and a community to help excel.`,
+      answer: `The course will be entirely online via the Dialect website. Students can access the course via the website and learn at their own pace. 
+      `,
     },
     {
       id: 3,
       open: false,
       question: "How can I clear my doubts during the course ?",
-      answer: `We have a dedicated team of developers who are always available to help students with any questions.`,
+      answer: `The students will be having access to senior developers via online video meetings to clear their doubts. Students can book sessions with the developers at any point during the course.`,
     },
     {
       id: 4,
       open: false,
       question: "Is there any financial support offered ?",
-      answer: `Yes, we offer financial support to our students.`,
+      answer: `Students who perform high in the eligibility tests are qualified for financial assistance from Dialect. `,
     },
   ]);
 
