@@ -31,7 +31,7 @@ const TechStackCard = ({ icon, heading, content }) => {
       )}
 
       <div className="text-2xl font-bold">{heading}</div>
-      <div className="text-lg text-grey">{content}</div>
+      <div className="text-lg text-grey md:text-sm">{content}</div>
     </div>
   );
 };

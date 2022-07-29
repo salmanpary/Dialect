@@ -24,7 +24,7 @@ const Hero = () => {
        
    <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-auto">
     <div className='flex flex-col justify-center items-start space-y-10 md:justify-center md:items-center'>
-   <div className="text-heroheading font-extrabold md:text-center">
+   <div className="text-heroheading font-extrabold md:text-center md:text-5xl md:leading-relaxed ">
     {LandingPageData.hero.heading}
    </div>
    <Details/>

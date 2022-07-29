@@ -40,15 +40,15 @@ const Card = ({ roundcolor, heading, content, icon }) => {
   }, [iconname, roundcolor, heading, content]);
   return (
     <div className="rounded-2xl bg-white p-16 w-[500px] h-[202px] flex flex-col justify-center items-center sm:w-[330px] sm:h-[240px] ">
-      <div className="flex gap-x-5 min-w-max md:flex-col md:justify-center md:items-center sm:gap-x-0">
+      <div className="flex gap-x-5 min-w-max md:flex-col md:justify-center md:items-center sm:gap-x-0 sm:gap-y-5">
         <div
           className={`rounded-full ${color} w-14 h-14 flex justify-center items-center mt-2`}
         >
           {iconcomponent}
         </div>
         <div className="flex flex-col gap-2">
-          <div className="text-xl font-extrabold md:text-center  sm:flex sm:justify-center sm:items-center ">{heading}</div>
-          <div className="w-[30ch] text-lg md:text-center md:px-14">{content}</div>
+          <div className="text-xl font-extrabold md:text-center  sm:flex sm:justify-center sm:items-center">{heading}</div>
+          <div className="w-[30ch] text-lg md:text-center md:px-14 md:text-sm md:w-[45ch]">{content}</div>
         </div>
       </div>
     </div>
