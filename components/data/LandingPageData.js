@@ -1,5 +1,7 @@
 const LandingPageData = {
- hero:{   heading:"Learn Coding in Malayalam",
+ hero:{ 
+      heading1:"Learn Coding",
+      heading2:" in Malayalam",
     details:[
         "Learn from Senior Developers",
         "Become a Developer in 6 Months",
