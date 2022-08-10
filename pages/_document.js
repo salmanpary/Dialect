@@ -21,7 +21,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-          <title>Coding Courses in Malayalam| Zartek India</title>
+          <title>Coding Courses in Malayalam| Dialect India</title>
         <Head>
           <link rel="shortcut icon" href="/icons/favic.png" />
           <meta

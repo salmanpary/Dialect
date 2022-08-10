@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import LandingPageData from "../data/LandingPageData";
 
 const TechStackCard = ({ icon, heading, content }) => {
   
