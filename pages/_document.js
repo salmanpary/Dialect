@@ -1,4 +1,5 @@
-import Document, { Html,Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const originalRenderPage = ctx.renderPage;
@@ -21,7 +22,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-          <title>Coding Courses in Malayalam| Dialect India</title>
+        <title>Coding Courses in Malayalam| Dialect India</title>
         <Head>
           <link rel="shortcut icon" href="/icons/favic.png" />
           <meta
@@ -33,6 +34,19 @@ class MyDocument extends Document {
             content="Python course in Malayalam, Python online course in Malayalam, python training in malayalam, python malayalam online courses, learn python in malayalam, python online training in malayalam, python malayalam online certifications, python programming course in malayalam
 coding courses in malayalam, flutter course in Malayalam, flutter online course in Malayalam, flutter training in malayalam, flutter malayalam online courses, learn flutter in malayalam, flutter online training in malayalam, flutter malayalam online certifications, react js course in Malayalam, react js online course in Malayalam, react js training in malayalam, react js malayalam online courses, learn react js in malayalam, react js online training in malayalam, react js malayalam online certifications"
           ></meta>
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-2DH42TRLNP"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+       
+         gtag('config', 'G-2DH42TRLNP');
+        `}
+          </Script>
         </Head>
         <body>
           <Main />
