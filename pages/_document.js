@@ -47,8 +47,11 @@ coding courses in malayalam, flutter course in Malayalam, flutter online course 
          gtag('config', 'G-2DH42TRLNP');
         `}
           </Script>
-          <Script strategy="afterInteractive" id="">
-            {`
+          <Script
+            strategy="afterInteractive"
+            id="trackingcode"
+            dangerouslySetInnerHTML={{
+              __html: `
             (function() {
               window.__insp = window.__insp || [];
               __insp.push(['wid', 777699708]);
@@ -57,8 +60,9 @@ coding courses in malayalam, flutter course in Malayalam, flutter online course 
               setTimeout(ldinsp, 0);
               })();
 
-            `}
-          </Script>
+            `,
+            }}
+          ></Script>
         </Head>
         <body>
           <Main />
