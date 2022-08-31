@@ -1,4 +1,4 @@
-import Mainpage from "../components/index"
+import Mainpage from "../components/Home";
 
 export default function H() {
   return (

@@ -17,6 +17,7 @@ module.exports = {
         "primary":"#6E6E6C",
         "green":"#00D2BD",
         "blue":"#2246F4",
+        "darkblue":"#060FE6",
         "grey":"#6E6E6C",
         'wrappergrey':'#EAF4FC',
         "greyline":"#8896A6",

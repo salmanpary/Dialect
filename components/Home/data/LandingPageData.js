@@ -77,5 +77,8 @@ const LandingPageData = {
       },
     ],
   },
+  faqdata:{
+
+  }
 };
 export default LandingPageData;

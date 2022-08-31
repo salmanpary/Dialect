@@ -1,11 +1,15 @@
+import Link from "next/link";
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { useMediaQuery } from "usehooks-ts";
 import styles from "./Footer.module.css";
+import {useRouter} from "next/router";
 const Footer = () => {
   const matches = useMediaQuery("(max-width: 576px)");
+  const router = useRouter();
   return (
     <footer
       className={`flex  flex-col justify-center items-center ${styles.footer} rounded-lg] p-10 mt-10`}
@@ -20,10 +24,10 @@ const Footer = () => {
           </div>
           <div className="flex gap-x-[7.438rem] md:flex-col md:justify-center md:items-center xl:flex-wrap xl:gap-y-4">
             <div className="flex flex-col text-[#454545] font-medium gap-2 md:flex-row md:gap-x-20">
-              <div className=" hover:cursor-pointer hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">
+              <div className=" hover:cursor-pointer hover:text-blue transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300" onClick={()=>router.push('/faq')}>
                 FAQ
               </div>
-              <div className="hover:cursor-pointer whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300">
+              <div className="hover:cursor-pointer whitespace-nowrap hover:text-blue transition ease-in-out hover:-translate-y-1 hover:scale-110  duration-300" onClick={()=>router.push('/contact')}>
                 Contact Us
               </div>
             </div>
@@ -52,6 +56,12 @@ const Footer = () => {
                   size={20}
                   className="hover:cursor-pointer transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 hover:text-green"
                 />
+              <a href="https://instagram.com/dialect_app?igshid=YmMyMTA2M2Y=">
+                <FaInstagram
+                  size={20}
+                  className="hover:cursor-pointer transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 hover:text-green"
+                />
+                </a>
               </div>
             </div>
           </div>

@@ -46,7 +46,7 @@ const Card = ({ roundcolor, heading, content, icon }) => {
         >
           {iconcomponent}
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-4">
           <div className="text-xl font-extrabold md:text-center  sm:flex sm:justify-center sm:items-center">{heading}</div>
           <div className="w-[30ch] text-lg md:text-center md:px-14 md:text-sm md:w-[45ch]">{content}</div>
         </div>

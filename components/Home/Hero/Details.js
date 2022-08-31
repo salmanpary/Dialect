@@ -1,5 +1,5 @@
 import React from "react";
-import Circle from "../common/Wrappers/Circle";
+import Circle from "../../common/Wrappers/Circle";
 import LandingPageData from "../data/LandingPageData";
 const Details = () => {
   return (

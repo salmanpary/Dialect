@@ -1,5 +1,5 @@
 import React from 'react'
-import Eligiblity from '../common/Buttons/EligiblityButton'
+import Eligiblity from '../../common/Buttons/EligiblityButton'
 import LandingPageData from '../data/LandingPageData'
 import Details from './Details'
 import { useMediaQuery } from 'usehooks-ts'
