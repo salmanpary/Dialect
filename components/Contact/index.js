@@ -6,11 +6,11 @@ import Typeform from './Typeform'
 const ContactUsPage = () => {
   return (
     <>
-    <div className='bg-gradient-to-r from-white to-wrappergrey py-2'>
+    
 
     <Navbar/>
     <Typeform/>
-    </div>
+
     <AddressCard/>
     <Footer/>
     </>

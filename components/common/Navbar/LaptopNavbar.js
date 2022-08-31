@@ -20,7 +20,10 @@ const LaptopNavbar = () => {
   }, [matches]);
 
   return (
-    <nav className={style}>
+    <div className="bg-gradient-to-l from-wrappergrey">
+
+   
+    <nav className={`${style} `}>
       <div className="flex justify-between">
         <img src="/icons/logo.png" width={200} height={100}></img>
         <ul className="flex justify-between items-center gap-8 font-semibold text-base">
@@ -70,6 +73,7 @@ const LaptopNavbar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   );
 };
 

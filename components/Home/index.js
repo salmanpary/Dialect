@@ -10,11 +10,11 @@ import Footer from '../common/Footer/Footer'
 const Mainpage = () => {
   return (
     <>
-    <div className='bg-gradient-to-l from-wrappergrey py-3'>
+   
 
     <Navbar/>
     <Hero/>
-    </div>
+   
     <WhyChooseUs/>
     <CoursesOffered/>
     <GetCritical/>

@@ -20,6 +20,9 @@ const Hero = () => {
 
   return (
    <>
+   <div className='bg-gradient-to-l from-wrappergrey md:bg-none'>
+
+ 
    <div className={style}>
        
    <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-auto">
@@ -46,7 +49,7 @@ const Hero = () => {
    </div>
 
    </div>
-
+   </div>
   
    </>
   )

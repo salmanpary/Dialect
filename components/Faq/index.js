@@ -6,11 +6,11 @@ import Faqsection from './FaqQuestions'
 const FaqPage = () => {
   return (
 <>
-<div className='bg-gradient-to-l from-wrappergrey py-2'>
+
 
 <Navbar/>
 <Faqsection/>
-</div>
+
 <GetCritical/>
 <Footer/>
 

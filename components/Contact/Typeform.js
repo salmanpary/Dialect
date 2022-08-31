@@ -14,7 +14,9 @@ const Typeform = () => {
     }
     ,[matches])
   return (
-    <div className="my-10">
+    <div className="bg-gradient-to-l from-wrappergrey md:bg-none">
+
+    <div className="py-10">
       <div className={`text-center ${style}`}>
         <div className="flex flex-col gap-3">
           <h1 className="font-bold text-4xl">Contact Us</h1>
@@ -23,6 +25,8 @@ const Typeform = () => {
         <Widget id="foNXRbPs" className="h-[515px] mt-10" />
       </div>
     </div>
+    </div>
+
   );
 };
 

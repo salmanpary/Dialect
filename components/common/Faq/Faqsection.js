@@ -13,7 +13,10 @@ const Faqsection = () => {
   }, [matches]);
   return (
     <>
-      <div className="mt-10">
+    
+
+ 
+      <div className="pt-10">
         <div className={`flex justify-center flex-col ${style} gap-y-5`}>
           <div className=" flex flex-col justify-center items-center">
             <h2 className="font-extrabold text-faqheading md:text-center md:text-4xl">
@@ -26,6 +29,7 @@ const Faqsection = () => {
           <Faqs />
         </div>
       </div>
+     
     </>
   );
 };
