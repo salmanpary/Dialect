@@ -19,8 +19,8 @@ const Typeform = () => {
     <div className="py-10">
       <div className={`text-center ${style}`}>
         <div className="flex flex-col gap-3">
-          <h1 className="font-bold text-4xl">Contact Us</h1>
-          <h2 className="text-3xl">{"We'd love to hear from you "}</h2>
+          <h1 className="font-bold text-4xl md:text-3xl">Contact Us</h1>
+          <h2 className="text-3xl md:text-2xl">{"We'd love to hear from you "}</h2>
         </div>
         <Widget id="foNXRbPs" className="h-[515px] mt-10" />
       </div>

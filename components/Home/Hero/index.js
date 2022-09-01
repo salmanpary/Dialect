@@ -1,5 +1,5 @@
 import React from 'react'
-import Eligiblity from '../../common/Buttons/EligiblityButton'
+import Eligiblity from '../../common/Buttons/LearningButton'
 import LandingPageData from '../data/LandingPageData'
 import Details from './Details'
 import { useMediaQuery } from 'usehooks-ts'
@@ -20,14 +20,14 @@ const Hero = () => {
 
   return (
    <>
-   <div className='bg-gradient-to-l from-wrappergrey md:bg-none'>
+   <div className='bg-gradient-to-l from-wrappergrey md:bg-none py-10'>
 
  
    <div className={style}>
        
-   <div className="grid grid-cols-2 md:grid-cols-1 md:grid-rows-auto">
-    <div className='flex flex-col justify-center items-start space-y-10 md:justify-center md:items-center'>
-   <div className="text-heroheading font-extrabold md:text-center md:text-5xl md:leading-relaxed md:whitespace-nowrap">
+   <div className="flex md:flex-col-reverse gap-x-20">
+    <div className='flex flex-col justify-center items-start gap-y-10 md:justify-center md:items-center'>
+   <div className="text-heroheading font-extrabold md:text-center md:text-5xl new:text-4xl  md:leading-relaxed md:whitespace-nowrap flex flex-col gap-4">
     <div>
 
     {LandingPageData.hero.heading1}
@@ -38,12 +38,15 @@ const Hero = () => {
    </div>
    
    <Details/>
+   <div className="mdo:hidden">
+<img src="/images/hero.png" alt="" width={700} height={700}/>
+</div>
    <Eligiblity/>
 
     </div>
-    <div className="md:row-start-1 md:row-end-2 md:flex md:justify-center md:items-center">
+    <div className="md:hidden">
 
-    <img src="/images/heroimage2.png" alt="" width={600} height={600} />
+    <img src="/images/hero.png" alt="" width={700} height={600}/>
     </div>
 
    </div>

@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-footerblack text-footerelements md:text-center sm:w-[30ch] font-semibold self-start md:self-center">
-          Copyright @ Dialect. All Rights Reserved -- Made by Zartek
+          Copyright @ Dialect. All Rights Reserved --<a href="https://www.zartek.in/"> Made by Zartek</a>
         </div>
       </div>
     </footer>

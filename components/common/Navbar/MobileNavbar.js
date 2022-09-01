@@ -11,9 +11,9 @@ const MobileNavbar = () => {
   const router = useRouter();
   return (
     <>
-      <div className="z-50 sticky top-2">
+      <div className="z-50 top-2">
         <div className="bg-wrappergrey py-2 px-10 rounded-lg my-2 mx-4 flex items-center justify-between ">
-          <img src="/icons/logo.png" alt="" width={100} height={100} />
+          <img src="/icons/logo.png" alt="" width={100} height={100} onClick={()=>router.push("/")}/>
           <div onClick={OpenMenu}>
             {show ? (
               <IoMdClose size={30} className="text-blue" />
