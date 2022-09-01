@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const LearningButton = () => {
   return (
     <>
-    <a href="">
+    <a href="https://gocollabo.typeform.com/to/foNXRbPs">
      <motion.button
     initial={{ scale: 0 }}
     animate={{
