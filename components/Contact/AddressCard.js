@@ -18,7 +18,7 @@ const AddressCard = () => {
         <div>
 
 <a href="https://g.page/zartek?share">
-        <img src="/images/map.png" alt="" width={700} height={380}/>
+        <img src="/images/map.png" alt="" width={700} height={380} className="md:w-auto"/>
 
 
 
