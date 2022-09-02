@@ -76,81 +76,67 @@ export  function FaqPageQuestions() {
     {
       id: 1,
       open: false,
-      question: "Do I need any qualifications to enroll for this course ?",
-      answer: "The course is open for anyone without any prior education in computer science. We recommend students who have finished any degree or in the final year of college to sign up for the course.",
+      question: "Is there any test to attend the course? ",
+      answer: "Yes, all students must pass our eligibility test which checks their aptitude and analytical skills. We believe this test is a good indicator of the capacity and potential of the student to be successful in software development.",
     },
     {
       id: 2,
       open: false,
-      question: " Will the course be online or offline ?",
-      answer: `The course will be entirely online via the Dialect website. Students can access the course via the website and learn at their own pace. 
+      question: "What is the payment method for the course? ",
+      answer: `The payment can be made online with UPI, Net Banking, Debit Card, Credit Card or popular wallets. Once the payment is made, students will have lifetime access to the course content via the Dialect website. 
       `,
     },
     {
       id: 3,
       open: false,
-      question: "How can I clear my doubts during the course ?",
-      answer: `The students will be having access to senior developers via online video meetings to clear their doubts. Students can book sessions with the developers at any point during the course.`,
+      question: "How can I access the course content? ",
+      answer: `The course can be accessed via the Dialect website and students can learn at their own pace. `,
     },
     {
       id: 4,
       open: false,
-      question: "Is there any financial support offered ?",
-      answer: `Students who perform high in the eligibility tests are qualified for financial assistance from Dialect. `,
+      question: "How can I clear doubts in the course? ",
+      answer: `Students have the option to schedule 1-1 sessions with senior developers to clear queries and doubts. The sessions will be online via Google Meet or Zoom.`,
     },
     {
       id: 5,
       open: false,
-      question:"Will I continue to have access to the course even after I complete it ?",
-      answer:" Yes, the course content will be accessible forever after the purchase.",
+      question:"Can I attend the course if I do not have a laptop or a Personal Computer?",
+      answer:"We require students to have a laptop or Personal Computer to attend the course. In case the student does not have a system, Dialect will assist you to arrange it.",
 
     },
     {
       id: 6,
       open: false,
-      question:"Will I be able to get a Job after the course completion ?",
-      answer:""
-
+      question:"Where can I get a job once the course is done?",
+      answer:"Once the course is completed, we will help you to create your resume and to apply for jobs in startups and software development companies."
     },
     {
       id: 7,
       open: false,
-      question:"What is the average salary of junior developers ? ",
-      answer:""
+      question:"Is there any offline training provided?",
+      answer:"The course is completely online and can be accessed via any system through the Dialect website."
+
+
     },
     {
       id: 8,
       open: false,
-      question:"Which coding language is the best to learn ?",
-      answer:""
-
-
+      question:"What is the average salary of Junior Developers?",
+      answer:"The average salary of junior developers can range from ₹2.5 to 4 Lakhs Per Annum depending on the organization."
     },
     {
       id: 9,
       open: false,
-      question:"Is it possible to learn both front-end and back-end languages ?",
-      answer:""
+      question:"What will be the duration I have to commit on a daily basis during the course?",
+      answer:"We recommend spending approximately 3-4 hours per day to complete the course. The course can be learned while the student is in college or after graduation. "
+
     },
     {
       id: 10,
       open: false,
-      question:"What will be the duration I have to commit on a daily basis during the course ?",
-      answer:""
-
-    },
-    {
-      id: 11,
-      open: false,
-      question:"Do you provide placements ?",
-      answer:""
-
-    },
-    {
-      id: 12,
-      open: false,
-      question:"Do I have an option of doing the course offline ?",
-      answer:""
+      question:"We recommend spending approximately 3-4 hours per day to complete the course. The course can be learned while the student is in college or after graduation. ",
+      answer:"Yes, it is possible but we recommend learning and mastering one language before learning the second language. "
 
     }
   ]);
