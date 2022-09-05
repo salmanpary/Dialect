@@ -23,7 +23,7 @@ const LandingPageData = {
         roundcolor: "green",
         heading: "100% Employment Guarantee",
         content:
-          "Our aim is to up-skill by giving end to end training to make you employable.",
+          "Our aim is to upskill by giving end to end training to make you employable.",
         icon: "businesstime",
       },
       {
@@ -43,7 +43,7 @@ const LandingPageData = {
         roundcolor: "blue",
         heading: "Any Time - Any Where",
         content:
-          "There is no hindrace of place and time  for the accessibility of our course.",
+          "There is no hindrance of place and time  for the accessibility of our course.",
         icon: "time",
       },
       {
