@@ -7,8 +7,14 @@ const LearningButton = () => {
   }, []);
   const changeButtonStyle = () => {
     if (window.scrollY > 600) {
+      if(window.innerHeight+window.scrollY>document.body.offsetHeight){
+        setbuttonstyle("sm:hidden")
+      }
+      else{
       setbuttonstyle("sm:fixed sm:bottom-8 sm:z-50 sm:w-3/4");
-    } else {
+    }
+    }
+    else{
       setbuttonstyle("");
     }
   };
