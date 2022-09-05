@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
         <h2 className="flex justify-center items-center font-bold text-cardheading sm:text-center pb-[3.125rem] md:text-4xl md:whitespace-nowrap">
           Why Choose Us
         </h2>
-        <div className="grid grid-cols-2 grid-rows-3 gap-10 xl:grid-cols-1    xl:flex xl:justify-center xl:flex-col xl:items-center xl:gap-y-11">
+        <div className="grid grid-cols-2 grid-rows-3 gap-10 new2:grid-cols-1    new2:flex new2:justify-center new2:flex-col new2:items-center new2:gap-y-11">
           {LandingPageData?.whychooseus?.cards?.map((item, index) => {
             return (
               <Card

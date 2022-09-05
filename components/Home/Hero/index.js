@@ -3,7 +3,6 @@ import Eligiblity from '../../common/Buttons/LearningButton'
 import LandingPageData from '../data/LandingPageData'
 import Details from './Details'
 import { useMediaQuery } from 'usehooks-ts'
-
 const Hero = () => {
   const matches = useMediaQuery('(max-width: 768px)')
   const [style,setstyle]=React.useState("margin")
@@ -27,7 +26,7 @@ const Hero = () => {
        
    <div className="flex md:flex-col-reverse gap-x-20">
     <div className='flex flex-col justify-center items-start gap-y-10 md:justify-center md:items-center'>
-   <div className="text-heroheading font-extrabold md:text-center md:text-5xl new:text-4xl  md:leading-relaxed md:whitespace-nowrap flex flex-col gap-4">
+   <div className="text-heroheading font-extrabold md:text-center md:text-5xl   md:leading-relaxed md:whitespace-nowrap new2:text-4xl flex flex-col gap-4">
     <div>
 
     {LandingPageData.hero.heading1}

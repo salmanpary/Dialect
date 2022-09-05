@@ -33,16 +33,19 @@ module.exports = {
       screens: {
         "2xl": { max: "1536px" },
         "new":{max:"1346px"},
+        "new2":{max:"1440px"},
         // => @media (max-width: 1535px) { ... }
   
         xl: { max: "1280px" },
+        "newxl":{max:"1270px"},
+        "newxlo":{min:"1270px"},
         // => @media (max-width: 1279px) { ... }
   
         lg: { max: "1024px" },
         // => @media (max-width: 1023px) { ... }
   
         md: { max: "768px" },
-        mdo:{min:"768px"},
+        mdo:{min:"769px"},
         // => @media (max-width: 767px) { ... }
   
         sm: { max: "640px" },

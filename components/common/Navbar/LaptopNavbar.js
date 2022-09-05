@@ -8,7 +8,6 @@ const LaptopNavbar = () => {
   const dispatch = useDispatch();
   const state = useSelector((state) => state.navbar.navbar);
   const router = useRouter();
-  console.log(router.pathname);
   const matches = useMediaQuery("(max-width: 768px)");
   const [style, setstyle] = React.useState("margin");
   React.useEffect(() => {

@@ -1,5 +1,6 @@
 import React from "react";
 import { Widget } from "@typeform/embed-react";
+import { PopupButton } from "@typeform/embed-react";
 import { useMediaQuery } from "usehooks-ts";
 const Typeform = () => {
     const matches = useMediaQuery("(max-width: 576px)");
