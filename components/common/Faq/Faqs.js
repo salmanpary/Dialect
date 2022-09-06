@@ -135,7 +135,7 @@ export  function FaqPageQuestions() {
     {
       id: 10,
       open: false,
-      question:"We recommend spending approximately 3-4 hours per day to complete the course. The course can be learned while the student is in college or after graduation. ",
+      question:"Is it possible to learn two programming languages in parallel?",
       answer:"Yes, it is possible but we recommend learning and mastering one language before learning the second language. "
 
     }
