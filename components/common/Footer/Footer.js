@@ -12,7 +12,7 @@ const Footer = () => {
   const router = useRouter();
   return (
     <footer
-      className={`flex  flex-col justify-center items-center ${styles.footer} rounded-lg] p-10 mt-10`}
+      className={`flex  flex-col justify-center items-center ${styles.footer} rounded-lg] p-10 mt-10 `}
     >
       <div className="flex flex-col gap-y-4">
         <h2 className="font-bold text-xl md:text-center">DIALECT</h2>

@@ -26,7 +26,15 @@ module.exports = {
         "cardtext":"#757095",
         "bordergrey":"#E9E9E9",
         "faqtext":"#1B1C31",
-        "footertext":"#454545"
+        "footertext":"#454545",
+        "bordergrey":"#f2f2f2",
+        "courseheading":"#333333",
+        "coursecardinstructor":"#949494",
+        "coursecardline":"#e1e1e1",
+        "coursediscount":"#8b8b8b",
+        "coursediscountstrike":"#BB0000",
+        "bluebutton":"#2246F4",
+        "coursedetails":"#001B40"
 
 
       },
@@ -34,6 +42,9 @@ module.exports = {
         "2xl": { max: "1536px" },
         "new":{max:"1346px"},
         "new2":{max:"1440px"},
+        "new3":{max:"1291px"},
+        "new4":{max:"1220px"},
+        "new5":{max:"1103px"},
         // => @media (max-width: 1535px) { ... }
   
         xl: { max: "1280px" },
